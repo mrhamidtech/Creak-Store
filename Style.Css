@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(234, 250, 245);
+    margin: 25px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex:2.5;
+}
+.logo h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.801);
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 10px;
+}
+.logo h1:hover{
+    font-size: 60px;
+    box-shadow: 3px 5px 14px 10px rgb(145, 94, 91);
+    width: 450px;
+    color: rgb(33, 30, 210);
+    background-color: rgb(247, 191, 7);
+    border-radius: 20px;
+}
+.nav-bar{
+    flex:1.5;
+    text-align: center;
+    
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 7px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: aliceblue;
+    overflow: hidden;
+}
+.nav-bar a:hover{
+    font-size: 25px;
+    background-color: rgb(8, 73, 73);
+    box-shadow: 1px 2px 10px 1px rgb(41, 13, 1);
+}
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.post{
+    width: 250px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 4px 6px 20px 4px black;
+	margin-bottom: 40px;
+    margin-top: 20px;
+}
+.post h2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.post p{
+    font-size: 15px;
+    
+}
+.image{
+    width: 250px;
+    height: 200px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.logoes{
+    display: flex;
+}
+.imm{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(255, 169, 8);
+    border-radius: 40px;
+}
+.bottom h3{
+ font-size: 30px;
+ text-align: center;
+ color: darkred;
+}
+hr{
+	height: 5px;
+	background-color: rgb(255, 102, 0);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img{
+    flex: 1;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(128, 201, 12);
+    border-radius: 100rem;
+
+}
+.name{
+    font-size: 100px;
+	text-align: center;
+	flex: 1;
+	color:#EAEDED ;
+    justify-content: space-around;
+}
+.name h1{
+    font-size: 25px;
+    color: teal;
+    width: 180px;
+    margin: 5px;
+    padding: 10px;
+}
